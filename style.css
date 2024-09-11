@@ -127,7 +127,7 @@ line-height: normal;
 .hero {
     background: url('./assets/images/Rectangle.svg') no-repeat center center/cover;
     color: white;
-    height: 717px;
+    height: 557px;
     padding: 15% 5% 0 5%;
   
 }
@@ -168,6 +168,10 @@ object-fit: cover;
     align-items: start
 }
 
+.hero-content{
+    width: 500px;
+    max-width: 100%;
+}
 
 .cta-button {
     border-radius: 6px;
@@ -194,6 +198,14 @@ line-height: 22px; /* 122.222% */
     padding: 5% 0% 0% 5%;
 }
 
+.payment-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+
  .payment-content h2 {
 color: #333333;
 font-size: 51.68px;
@@ -213,7 +225,7 @@ font-style: normal;
 font-weight: 600;
 /* line-height: 54px;  */
 text-transform: capitalize;
-/* margin-top: 0; */
+margin-top: 5px;
 }
 
 
@@ -271,11 +283,9 @@ height: 339.713px;
 
 }
 .payment-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    
+    display: inline-flex;
+    align-items: start;
+    position: relative;
 }
 
 .payment-flex span {
@@ -308,7 +318,7 @@ word-wrap: break-word
   background-position: center ;
   display: flex;
   justify-content: space-between;
-  padding: 5% 5% 0 5%;
+  padding: 3% 5% 0 5%;
 }
 
 .text-content  {
@@ -350,7 +360,7 @@ word-wrap: break-word
     border-radius: 20px;
     background: #A7D4A9;
   display: flex;
-  padding: 5% 5% 0 5%;
+  padding: 3% 0% 0 5%;
 justify-content: space-around;
 align-items: end;
 }
@@ -377,7 +387,8 @@ font-size: 70px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-margin-bottom: 0
+margin-bottom: 0;
+margin-top: 0;
 }
 
 .green-content p {
@@ -387,7 +398,7 @@ font-size: 34.316px;
 font-style: normal;
 font-weight: 500;
 line-height: 47.25px;
-margin-bottom: 50px;
+margin-bottom: 60px;
 }
 
 .green-image-wrapper{
@@ -444,7 +455,7 @@ margin-bottom: 50px;
    background-repeat: no-repeat;
    background-position: right;
     display: flex;
-    padding: 5% 5% 0 5%;
+    padding: 3% 5% 0 5%;
     justify-content: space-between;
     /* align-items: center; */
 }
