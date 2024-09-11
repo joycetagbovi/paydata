@@ -35,7 +35,9 @@
                         fill="#333333" />
                 </svg>
             </a>
+            <div class="menu-toggle">&#9776;</div>
             <ul class="nav-links">
+                <li class="close-nav">&times;</li> 
                 <li><a href="#">FAQs</a></li>
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms</a></li>
@@ -55,7 +57,8 @@
                         <a href="#" class="cta-button">Get in Touch</a>
                     </div>
                     <div class="box-image">
-                        <img src="./assets//images/phone.svg" alt="iphone" class="hero-image" />
+                        <img src="./assets/images/phone.svg" alt="iphone" class="hero-image" />
+                        <img src="./assets/images/qrcode.svg" alt="iphone" class="mobile-hero-image" />
                     </div>
                 </div>
             </div>
@@ -79,7 +82,7 @@
                 <div class="grid-column-3">
                     <img src="./assets/images/image.png" alt="female dancing" class="payment-image" />
                     <div class="payment-background">
-                        <div style="width: 544px; margin-bottom: 30px;">
+                        <div class="payment-background-content">
                         <small>Send Money</small>
                         <h3>Send money to friends
                             and family</h3>
@@ -100,7 +103,7 @@
             <div class="container">
                 <div class="bills-background">
                     <div class="text-content">
-                <h3 >Pay all your bills in one place.</h3>
+                <h3>Pay all your bills in one place.</h3>
                 </div>
                 <div class="bills-image-wrapper">
                 <img class="image" src="./assets/images/image.svg" alt="Placeholder" />
@@ -131,7 +134,6 @@
                         <h3 >Invoice</h3>
                         <p>The easiest way to get paid as a freelancer or businesses</p>
                         </div>
-
                     <div class="green-image-wrapper">
                         <img class="" src="./assets/images/create-invoice.svg" alt="Placeholder" />
                         </div>
@@ -150,7 +152,7 @@
                         <p>Over 2 million people trust PaydatApp for their daily money moves, download  PaydatApp today to get started.</p>
                         <div class="download">
                             <img class="" src="./assets/images/Button.png" alt="Placeholder" />
-                            <img class="google.btn" src="./assets/images/google.png" alt="Placeholder" />
+                            <img class="google-btn" src="./assets/images/google.png" alt="Placeholder" />
                         </div>
                         </div>
 
@@ -166,7 +168,7 @@
         <section class="section">
             <div class="container">
                 <div class="grid-column-3">
-                    <div >
+                    <div class="logo-center">
                         <a href="#" class="logo">
                             <img class="" src="./assets/images/blue-logo.svg" alt="logo" />
                         </a>
@@ -199,7 +201,7 @@
                     </div>
 
                     <div>
-                        <p class="tagline">PaydatApp is powered by Greenhabor Technologies<br/> Ltd  RC 7823735</p>
+                        <p class="tagline">PaydatApp is powered by Greenhabor Technologies Ltd  RC 7823735</p>
                     </div>
 
                 </div>
@@ -214,6 +216,20 @@
     <script>
         const currentYear = new Date().getFullYear();
         document.getElementById("dateformat").innerHTML = ` ©${currentYear}`;
+
+        const navbar = document.querySelector('.navbar');
+const menuToggle = document.querySelector('.menu-toggle');
+const closeNav = document.querySelector('.close-nav');
+
+menuToggle.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+});
+
+
+closeNav.addEventListener('click', () => {
+  navbar.classList.remove('active');
+});
+
     </script>
 </body>
 
