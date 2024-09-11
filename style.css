@@ -37,7 +37,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'ClashGrotesk', sans-serif;
-    overflow: hidden;
+  overflow-x: hidden;
 }
 
 
