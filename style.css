@@ -391,7 +391,10 @@ word-wrap: break-word
 }
 
 .policy-section {
-    padding: 2% 0% 0% 2%;
+    padding-top: 2%;
+    padding-bottom: 0;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .green-section {
@@ -727,6 +730,24 @@ line-height: 22px; /* 131.984% */
   margin-bottom: 0px;
 line-height:78px;
 margin-top: 0px;
+}
+
+.privacy-container {
+   padding-top: 5%;
+   padding-left: 10%;
+   padding-right: 10%;
+    text-align: center;
+}
+
+.privacy-container h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 57px;
+    margin-bottom: 0px;
+}
+
+.privacy-container  p {
+    font-size: 20px
 }
 
 
