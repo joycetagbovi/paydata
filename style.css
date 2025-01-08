@@ -1078,6 +1078,8 @@ text-align: center;
         line-height: 30px;
         margin-bottom 0 !important;
         margin-top: 0 !important;
+        width: 100%;
+        max-width: 235px;
     }
 
     .payment-section p {
@@ -1134,6 +1136,8 @@ text-align: center;
     .green-content h3 {
         font-size: 25px;
         line-height: normal;
+        max-width: 247px;
+        width: 100%;
     }
 
     .green-content p {
