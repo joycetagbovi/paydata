@@ -191,20 +191,22 @@ line-height: normal;
     padding: 10px 20px;
     align-items: center;
     transition: background 0.3s ease;
-    color: #FFF;
+    color: #212337;
     text-align: center;
     font-family: "ClashGrotesk";
+    border: none !important;
+    cursor: pointer;
 }
 
 
 .navbar .nav-links a:hover,
 .navbar .nav-links a:focus,
 .navbar .nav-links a:active {
-    color: #f39c12;
+    color: #7436F5;
 }
 
 .navbar .nav-links a.active {
-    color: #f39c12;
+    color: #7436F5;
     
 }
 
@@ -1358,6 +1360,7 @@ display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 2px;
 }
 
 .footer-flex {
